@@ -5,13 +5,15 @@ body {
   
   header {
     height: 65px;
-    background-image: url("img/Fondo.gif");
-    background-repeat: repeat-x;
+    background-image: url("img/Fondo1.gif");
+    background-repeat: no-repeat;
+    background-size: cover; /* Cambio realizado */
     color: white;
     display: flex;
     align-items: center;
     padding-left: 25px;
   }
+  
   
   #Bienvenida {
     text-align: center;
@@ -41,40 +43,63 @@ body {
   }
   
   .Botones li a:hover {
-    background-color: #111;
+    background-color:#426c92 ;
   }
   
   .cara {
-    border-radius: 500px;
-    height: 200px;
+    margin-top: 45%;
+    height: 200%;
+    margin-left: 72.5%;
+    display:flex;
+  
+    
+    
   }
   
-  #uno {
+ /* #uno {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: calc(100vh - 65px);
-    background-image: url("img/Fondo1.gif");
+    /*background-image: url("img/Fondo1.gif");
     color: white;
+  }*/
+  
+  body {
+    margin: 0;
+    padding: 0;
   }
   
   .caja-central {
-    margin-top: 10%;
-    width: 50%;
+    margin-top: 2%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     border-radius: 20px;
     overflow: hidden;
-    height: 50%;
+    background-image: url("img/Fondo.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh; /* Puedes ajustar la altura según tus necesidades */
+    
   }
+  
   
   .caja-cara {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
-    background-color: #29425A;
+    width: 80%;
+    margin-bottom: 30%;
+    
+
+
+    
+    /*background-color: #29425A;*/
+    
+   
+    
   }
   
   .caja-presentacion {
@@ -82,8 +107,6 @@ body {
     justify-content: center;
     align-items:normal;
     width: 60%;
-    background-image: url("img/Fondo.gif");
-    background-size: cover;
     color: white;
     padding: 10px;
     text-align: center;
@@ -98,6 +121,7 @@ body {
     flex-direction: column;
     align-items: center;
     color: #f2f2f2;
+    font-size: 25px;
     
   }
   
@@ -499,3 +523,4 @@ body {
   }
 
 }
+
